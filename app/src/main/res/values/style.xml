@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name = "Widget.tip_calculator_3.Textview" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">48dp</item>
+        <item name ="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+    
+    <style name="Widget.tip_cal.compoundButton.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="android:minHeight">48dp</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+    <style name="Widget.tip_time.CompoundButton.radioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+    <item name="android:paddingStart">8dp</item>
+    <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+</resources>
